@@ -1,0 +1,4 @@
+# RealSense D405 彩色视频录制：realsense_d405_record.py
+pyrealsense2
+opencv-python
+numpy

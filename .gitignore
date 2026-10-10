@@ -1,0 +1,27 @@
+# 训练输出与可视化结果
+**/runs/
+**/outputs/
+
+# 相机录制的视频
+**/video/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.m4v
+*.wmv
+
+# 分割数据集：拍摄图片、标签及生成的清单等数据
+/yolo26seg_train/dataset/*
+!/yolo26seg_train/dataset/classes.txt
+!/yolo26seg_train/dataset/bootstrap.yaml
+
+# 目标检测项目整体不提交
+/yolo_detect_train/
+
+# Python 缓存与本地环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
